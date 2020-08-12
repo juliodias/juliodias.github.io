@@ -1,0 +1,19 @@
+title: Júlio Dias.
+email: julioocdias@gmail.com
+description: >-
+  Blog for myself :)
+baseurl: ""
+url: "https://juliodias.github.io"
+github_username:  juliodias
+
+# Build settings
+markdown: kramdown
+remote_theme: chesterhow/tale
+
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
